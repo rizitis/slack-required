@@ -1,5 +1,5 @@
 # slack-required
-This script serch your local SlackBuild repo and create a dep list for every package you have in you list.
+This script searching your local SlackBuild repo and create a dep list for every package you have in you list.
 
 [![](https://github.com/rizitis/slack-required/blob/main/Screenshot%20from%202023-03-16%2011-21-30.png)]()
 
