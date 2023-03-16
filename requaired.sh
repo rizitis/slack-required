@@ -10,6 +10,6 @@ cat $dir/$i.info | grep REQUIRES= > $dir/$i.txt
 sed -i 's/REQUIRES=//g' $dir/*.txt
 sed -i 's/^"//' $dir/*.txt
 sed -i 's/"$//' $dir/*.txt
-tr -cs [:alnum:] '\n' < $dir/$i.txt > $dir/$i.req
+tr -cs [:graph:] '\n' < $dir/$i.txt > $dir/$i.req
 rm $dir/*.txt $dir/*.info
 done
